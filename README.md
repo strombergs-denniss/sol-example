@@ -7,6 +7,6 @@ A simple example of [LuaJIT](https://github.com/LuaJIT/LuaJIT) integration with 
     make && sudo make install
 
 ## Usage
-    git clone git@github.com:strombergs-denniss/sol-example.git
+    git clone --recursive git@github.com:strombergs-denniss/sol-example.git
     cd sol-example
     ./build.sh

@@ -13,6 +13,8 @@ include_directories(libraries/sol)
 
 include_directories(/usr/local/include/luajit-2.1)
 
+include_directories(libraries/glm)
+
 add_executable(${PROJECT_NAME} ${SOURCES})
 
 target_link_libraries(${PROJECT_NAME} luajit-5.1)
